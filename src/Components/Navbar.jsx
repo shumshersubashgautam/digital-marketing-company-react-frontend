@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className={nav ? "nav active": "nav"}>
-        <Link to='#' className='logo'>
+        <Link to='main' className='logo'>
             <img src={logo} alt=''/>
 
         </Link>
@@ -27,11 +27,11 @@ const Navbar = () => {
             <span className='nav-icon'></span>
         </label>
       <ul className='menu'>
-        <li><Link to ='#'>Home</Link></li>
-        <li><Link to ='#'>Services</Link></li>
-        <li><Link to ='#'>Projects</Link></li>
-        <li><Link to ='#'>About</Link></li>
-        <li><Link to ='#'>Contact Us</Link></li>
+        <li><Link to ='main'>Home</Link></li>
+        <li><Link to ='features'>Services</Link></li>
+        <li><Link to ='offer'>Projects</Link></li>
+        <li><Link to ='About'>About</Link></li>
+        <li><Link to ='contact'>Contact Us</Link></li>
       </ul>
       </nav>
   )
