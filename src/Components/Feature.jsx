@@ -14,7 +14,7 @@ function Feature() {
         <Featurebox image={fimage2} title="Software Development"/>
         <Featurebox image={fimage3} title="Video Editing"/>
         <Featurebox image={fimage4} title="Artificial Intelligence"/>
-            <Featurebox/>
+       
 
             </div> 
         </div>
