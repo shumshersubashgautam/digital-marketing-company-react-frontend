@@ -1,11 +1,15 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+
 import Navbar from './Components/Navbar';
+import Header from './Components/Header';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Header/>
+
     </div>
   );
 }
